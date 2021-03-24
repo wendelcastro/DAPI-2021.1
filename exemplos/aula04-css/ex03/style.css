@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/*regra para acentuação*/
+
+/*Formatando o texto x*/
+body {
+    background-color: darkgrey;
+    color: dodgerblue;
+    font-family: Arial;
+    font-size: 14px;
+}
+h1 {
+    color: firebrick;
+}
+/*Formatando o texto y*/

@@ -1,0 +1,11 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-image: linear-gradient(90deg, yellow 30%, red 50%, green 20%);
+}
+h1 {
+    color: hsla(190, 78%, 30%, 0.527);
+}
+
+
