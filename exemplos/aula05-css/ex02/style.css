@@ -1,0 +1,45 @@
+#texto-principal {
+    color: aqua;
+}
+
+.meu-texto-secundario {
+    transition: color .4s linear;
+    color: green;
+}
+
+.meu-texto-secundario:hover {
+    color: blue;
+}
+
+.meu-texto-secundario:active {
+    color: blueviolet;
+}
+
+/* É utilizado somente para fins de estilo */
+#texto-principal::before {
+    content: "Olá";
+    color: blueviolet;
+}
+
+#texto-principal::after {
+    content: "Olá";
+    color: black;
+}
+
+
+#texto-principal::first-letter {
+    color: rgb(142, 165, 42);
+}
+
+
+#texto-principal::first-line {
+    color: brown;
+}
+
+a {
+    color: brown;
+}
+
+a:visited {
+    color: pink;
+}
