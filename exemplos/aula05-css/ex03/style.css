@@ -1,0 +1,40 @@
+.meu-css-span {
+    color: chartreuse;
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    /* display: block; */
+    /* display: inline; */
+}
+
+/* 
+    Elementos que são nível de bloco
+    Elementos que são nível de linha
+*/
+
+
+/* elementos nível de block geram quebra de linha */
+.meu-css-div {
+    background-color: purple;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+}
+
+/* width, height, margin, padding */
+
+.animacao-div {
+    /* a div é uma tag nível de block */
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    transition: all .3s linear;
+}
+
+.animacao-div:hover {
+    width: 100px;
+    height: 100px;
+}

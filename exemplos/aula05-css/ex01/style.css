@@ -1,0 +1,23 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"); */
+
+@font-face {
+  font-family: "Romatic";
+  src:  url("fonts/Romantic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Segunda fonte";
+  src: local("Winter") url("fonts/Winter.ttf") format("truetype");
+}
+
+p {
+  font-family: "Zen Dots", Helvetica, sans-serif;
+  font-weight: normal;
+  /* red - green - blue */
+  color: rgb(0, 0, 0);
+  /* ctrl + ; */
+}
+
+span {
+  font-family: "Romantic",helvetica, sans-serif;
+}
