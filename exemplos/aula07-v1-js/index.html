@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeira aula de javascript</title>
+  </head>
+  <body>
+    <!-- <button onclick="mostrarAlerta()">Click me</button> -->
+    <h1 class="nome" id="nome">Paulo</h1>
+    <script>
+      // var nomeDoUsuario = window.prompt("Digite o seu nome");
+      // nomeDoUsuario = "O seu nome é " + nomeDoUsuario;
+      // window => objeto global
+
+      // function mostrarAlerta() {
+      //   // alert("O seu nome é: "+ ` nomeDoUsuario);
+      //   // alert(`o seu nome é: ${nomeDoUsuario}`);
+      //   alert(nomeDoUsuario);
+      // }
+
+      // texto.innerHTML = "<a href='#'>Link qualquer</a>";
+      var valorDigitado = window.prompt("Digite um valor qualquer");
+      // var texto = document.getElementsByTagName("h1")[0];
+      // var texto = document.getElementsByClassName("nome")[0];
+      // var texto = document.getElementById("nome");
+      // por classe
+      // var texto = document.querySelector(".nome");
+      // por id
+      // var texto = document.querySelector("#nome");
+      // var texto = document.querySelectorAll("h1.nome")[0];
+      texto.innerText = `texto qualquer foi digitado: ${valorDigitado}`;
+    </script>
+  </body>
+</html>
